@@ -26,6 +26,28 @@ new Train()
 var myFirstTrain = new Train('red', false);
 
 
+// add methods to classes, and these methods will then be shared by all future instance objects of my Train class.
+class Train {
+    constructor(color, lightsOn) {
+        this.color = color;
+        this.lightsOn = lightsOn;
+    }
+    toggleLights() {
+        this.lightsOn = !this.lightsOn;
+    }
+    lightsStatus() {
+        console.log('Lights on?', this.lightsOn);
+    }
+    getSelf() {
+        console.log(this);
+    }
+    getPrototype() {
+        var proto = Object.getPrototypeOf(this);
+        console.log(proto);
+    }
+}
+
+
 // console log the myFirstTrain object:
 console.log(myFirstTrain); // Train {color: 'red', lightsOn: false}
 var mySecondTrain = new Train('blue', false);
