@@ -20,3 +20,11 @@ class Train {
 
 // Now, to actually build a new instance of the Train class
 new Train()
+
+
+// Putting it all together, here's your first train:
+var myFirstTrain = new Train('red', false);
+
+
+// console log the myFirstTrain object:
+console.log(myFirstTrain); // Train {color: 'red', lightsOn: false}
