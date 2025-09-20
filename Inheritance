@@ -2,4 +2,8 @@
 class Train {}
 
 // In between the curly braces, the first piece of code that you need to define is the constructor:
+class Train {
+    constructor() {
 
+    }
+}
