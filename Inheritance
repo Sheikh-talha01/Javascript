@@ -7,3 +7,16 @@ class Train {
 
     }
 }
+
+
+// For now, let's say that there are only two properties that each object instance of the Train class should have at the time it gets instantiated: color and lightsOn.
+class Train {
+    constructor(color, lightsOn) {
+        this.color = color;
+        this.lightsOn = lightsOn;
+    }
+}
+
+
+// Now, to actually build a new instance of the Train class
+new Train()
