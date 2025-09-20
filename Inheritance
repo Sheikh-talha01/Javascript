@@ -28,3 +28,5 @@ var myFirstTrain = new Train('red', false);
 
 // console log the myFirstTrain object:
 console.log(myFirstTrain); // Train {color: 'red', lightsOn: false}
+var mySecondTrain = new Train('blue', false);
+var myThirdTrain = new Train('blue', false);
