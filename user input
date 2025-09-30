@@ -1,1 +1,4 @@
+//  how to capture user input and process it. 
 
+//  capture user input, use the built-in prompt() method, like this:
+let answer = prompt('What is your name?');
