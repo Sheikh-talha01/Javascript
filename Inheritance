@@ -111,3 +111,21 @@ hourlyWage (default: 10)
 Step 3: Add the following method to the Worker class:
 goToWork(): Increases the xp property by 10. 
 */
+
+//  Solution task 2
+// Task 2: Code a Worker class
+
+// WRITE YOUR CODE HERE - Define the Worker class that extends Person
+class Worker extends Person {
+    // WRITE YOUR CODE HERE - Add a constructor with additional parameters
+    constructor(name = "Tom", age = 20, energy = 100, xp = 0, hourlyWage = 10) {
+        super(name, age, energy);
+        this.xp = xp;
+        this.hourlyWage = hourlyWage;
+    }
+
+    // WRITE YOUR CODE HERE - Add the goToWork() method
+    goToWork() {
+        this.xp += 10;
+    }
+}
