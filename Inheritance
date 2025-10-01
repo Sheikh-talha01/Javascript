@@ -129,3 +129,62 @@ class Worker extends Person {
         this.xp += 10;
     }
 }
+
+// `````````````````````````````````````````````````````````````````````````````````````````
+/*
+Task 3: Code an Intern Object
+
+Objective: Instantiate the Worker class to create an intern object with specific attributes.
+Steps:
+Step 1: Inside the intern() function, create a new Worker object with the following properties: 
+name: "Bob"
+age: 21
+energy: 110
+xp: 0
+hourlyWage: 10
+Step 2: Call the goToWork() method on the intern object.
+Step 3: Return the intern object. 
+*/
+
+// solution task 3
+
+// Task 3: Code an intern object, run methods
+function intern() {
+    // WRITE YOUR CODE HERE - Instantiate the Worker class with the intern properties
+    var internObj = new Worker("Bob", 21, 110, 0, 10);
+    
+    // WRITE YOUR CODE HERE - Call the goToWork() method
+    internObj.goToWork();
+    
+    // WRITE YOUR CODE HERE - Return the intern object
+    return internObj;
+}
+
+//``````````````````````````````````````````````````````````````````````````````````````````````````
+
+Task 4: Code a Manager Object
+
+Objective: Instantiate the Worker class to create a manager object with specific attributes.
+Steps:
+Step 1: Inside the manager() function, create a new Worker object with the following properties: 
+name: "Alice"  
+age: 30
+energy: 120
+xp: 100
+hourlyWage: 30
+Step 2: Call the doSomethingFun() method on the manager object.
+Step 3: Return the manager object. 
+*/
+
+// Solution task 4
+// Task 4: Code a manager object, methods
+function manager() {
+    // WRITE YOUR CODE HERE - Instantiate the Worker class with the manager properties
+    var managerObj = new Worker("Alice", 30, 120, 100, 30);
+    
+    // WRITE YOUR CODE HERE - Call the doSomethingFun() method
+    managerObj.doSomethingFun();
+    
+    // WRITE YOUR CODE HERE - Return the manager object
+    return managerObj;
+}
