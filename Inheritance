@@ -55,7 +55,7 @@ class Parrot extends Bird {
             // console.log("talking!")
 }
 
-
+//````````````````````````````````````````````````````````````````````````````````````
 
 //                        Example
 
@@ -74,3 +74,28 @@ sleep(): Increases the energy property by 10.
 doSomethingFun(): Decreases the energy property by 10.  
 */
 
+// Lab task 1 Solution
+// Task 1: Code a Person class
+
+// WRITE YOUR CODE HERE - Define the Person class
+class Person {
+    // WRITE YOUR CODE HERE - Add a constructor with default parameters
+    constructor(name = "Tom", age = 20, energy = 100) {
+        this.name = name;
+        this.age = age;
+        this.energy = energy;
+    }
+
+    // WRITE YOUR CODE HERE - Add the sleep() method
+    sleep() {
+        this.energy += 10;
+    }
+
+    // WRITE YOUR CODE HERE - Add the doSomethingFun() method
+    doSomethingFun() {
+        this.energy -= 10;
+    }
+}
+
+
+// ````````````````````````````````````````````````````````````````````````````````
