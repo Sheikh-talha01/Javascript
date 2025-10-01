@@ -54,3 +54,23 @@ class Parrot extends Bird {
         // if (canTalk)
             // console.log("talking!")
 }
+
+
+
+//                        Example
+
+/* Lab Tasks: 
+
+Task 1: Code a Person Class
+Objective: Create a Person class to represent basic human attributes and actions.
+Steps:
+Step 1: Open the ooprogramming.js file present under the LEARN folder. This is where you will write your object-oriented program. 
+Step 2: Define a Person class with the following parameters in the constructor:
+name (default: "Tom")
+age (default: 20)  
+energy (default: 100)
+Step 3: Add the following methods to the class:
+sleep(): Increases the energy property by 10.
+doSomethingFun(): Decreases the energy property by 10.  
+*/
+
