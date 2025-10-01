@@ -99,3 +99,15 @@ class Person {
 
 
 // ````````````````````````````````````````````````````````````````````````````````
+/*
+Task 2: Code a Worker Class
+
+Objective: Extend the Person class to create a Worker class with additional attributes and functionality.
+Steps:
+Step 1: Define a Worker class that inherits from the Person class.
+Step 2: Add two additional parameters to the Worker constructor:
+xp (default: 0)
+hourlyWage (default: 10)
+Step 3: Add the following method to the Worker class:
+goToWork(): Increases the xp property by 10. 
+*/
