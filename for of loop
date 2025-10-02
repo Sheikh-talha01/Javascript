@@ -14,9 +14,14 @@ for(prop of car) {
 // Running the above code snippet will throw the following error
 //      Uncaught TypeError: car is not iterable
 
+
+
 //  Contrary to objects, arrays are iterable. For example:  
 const colors = ['red','orange','yellow']
 for (var color of colors) {
     console.log(color);
 }
 //This time, the output is as follows
+// red
+// orange
+// yellow
