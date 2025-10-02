@@ -1,7 +1,8 @@
 
  // learn how the for of loop works conceptually.
 
-//  it's important to know that a for of loop cannot work on an object directly, since an object is not iterable. For example:
+//  it's important to know that a for of loop cannot work on an object directly, since an object is not iterable. 
+//For example:
 const car = {
     speed: 100,
     color: "blue"
@@ -10,3 +11,12 @@ const car = {
 for(prop of car) {
     console.log(prop)
 }
+// Running the above code snippet will throw the following error
+//      Uncaught TypeError: car is not iterable
+
+//  Contrary to objects, arrays are iterable. For example:  
+const colors = ['red','orange','yellow']
+for (var color of colors) {
+    console.log(color);
+}
+//This time, the output is as follows
