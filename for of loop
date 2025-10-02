@@ -1,2 +1,4 @@
 
  // learn how the for of loop works conceptually.
+
+//  it's important to know that a for of loop cannot work on an object directly, since an object is not iterable. For example:
