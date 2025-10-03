@@ -40,3 +40,21 @@ console.log(numbers);
 //¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 
 // Using push() and pop() Together
+
+let stack = [];
+
+// Push elements (add to stack)
+stack.push(1);
+stack.push(2);
+stack.push(3);
+
+console.log(stack);  
+// Output: [1, 2, 3]
+
+// Pop elements (remove from stack)
+console.log(stack.pop());  // Output: 3
+console.log(stack.pop());  // Output: 2
+
+console.log(stack);  
+// Output: [1]
+
