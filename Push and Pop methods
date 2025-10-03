@@ -15,6 +15,22 @@ console.log(fruits);
 
 
 
+//¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 
 // pop() Method
    //Removes the last element from an array.
+
+let numbers = [10, 20, 30, 40];
+// Removing elements using pop()
+
+let lastElement = numbers.pop();
+
+console.log(numbers);      
+// Output: [10, 20, 30]
+
+console.log(lastElement);  
+// Output: 40 (the element removed)
+
+numbers.pop();  
+console.log(numbers);      
+// Output: [10, 20]
