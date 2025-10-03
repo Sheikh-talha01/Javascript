@@ -3,3 +3,12 @@
 
 //  push() Method
 //       Adds one or more elements to the end of an array.
+
+let fruits = ["Apple", "Banana"];
+
+// Adding elements using push()
+fruits.push("Mango");
+fruits.push("Orange", "Grapes");
+
+console.log(fruits);  
+// Output: ["Apple", "Banana", "Mango", "Orange", "Grapes"]
