@@ -12,3 +12,9 @@ fruits.push("Orange", "Grapes");
 
 console.log(fruits);  
 // Output: ["Apple", "Banana", "Mango", "Orange", "Grapes"]
+
+
+
+
+// pop() Method
+   //Removes the last element from an array.
