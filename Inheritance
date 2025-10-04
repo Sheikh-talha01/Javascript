@@ -5,11 +5,10 @@ class Animal {
 
 
 
-// the Cat sub-class, like this:
+// The Cat sub-class, like this:
 class Cat extends Animal {
     // ... class code here ...
 }
-
 
 
 // For Example
@@ -22,6 +21,7 @@ class Animal {
         // energy += 20
         // console.log energy
 }
+
 class Cat extends Animal {
     // constructor: sound, canJumpHigh, canClimbTrees, color, energy
     // makeSound()
