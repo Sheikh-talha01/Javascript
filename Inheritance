@@ -32,6 +32,7 @@ class Bird extends Animal {
     // makeSound()
         // console.log sound
 }
+
 class HouseCat extends Cat {
     // constructor: houseCatSound, sound, canJumpHigh, canClimbTrees, color, energy
     // makeSound(option)
@@ -39,6 +40,7 @@ class HouseCat extends Cat {
             // super.makeSound()
         // console.log(houseCatSound)
 }
+
 class Tiger extends Cat {
     // constructor: tigerSound, sound, canJumpHigh, canClimbTrees, color, energy
     // makeSound(option)
@@ -46,6 +48,7 @@ class Tiger extends Cat {
             // super.makeSound()
         // console.log(tigerSound)
 }
+
 class Parrot extends Bird {
     // constructor: canTalk, sound, canJumpHigh, canClimbTrees, color, energy
     // makeSound(option)
@@ -54,6 +57,7 @@ class Parrot extends Bird {
         // if (canTalk)
             // console.log("talking!")
 }
+
 
 //````````````````````````````````````````````````````````````````````````````````````
 
