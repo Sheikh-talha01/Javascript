@@ -21,6 +21,7 @@ const colors = ['red','orange','yellow']
 for (var color of colors) {
     console.log(color);
 }
+
 //This time, the output is as follows
 // red
 // orange
